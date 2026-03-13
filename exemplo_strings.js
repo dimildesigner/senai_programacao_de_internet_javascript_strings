@@ -40,3 +40,9 @@ let parte = nome.slice(0, 12); // "Desenvolvedo"
 console.log(parte);
 
 
+
+console.log("\n\n......... Replace .........\n");
+
+let saudacao = "Olá, mundo!";
+let novaSaudacao = saudacao.replace("mundo", "turma");
+console.log(novaSaudacao); // "Olá, turma!"
